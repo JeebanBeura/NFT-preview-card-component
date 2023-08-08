@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:ital,wght@0,700;1,500&family=Outfit:wght@300;400;600&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	height: 98vh;
+	background-color: hsl(217, 54%, 11%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Outfit;
+}
+
+.box {
+	width: 17%;
+	border-radius: 13px;
+	padding: 17px;
+	background-color: hsl(216, 50%, 16%);
+	min-height: 60%;
+}
+
+.image img {
+	width: 100%;
+	border-radius: 13px;
+
+
+	
+}
+
+.first p {
+	color: hsl(0, 0%, 100%);
+	padding:  0.9rem 0rem 0.9rem 0.5rem;
+	font-size: 1.3rem;
+     
+}
+
+.sec {
+	color:  hsl(215, 51%, 70%);
+}
+
+.tf {
+	display: flex;
+	padding: 0.9rem 0rem 0.9rem 0rem;
+    justify-content: space-between;
+}
+
+.third {
+	color: hsl(178, 100%, 50%);
+	display: flex;
+	align-items: center;
+
+}
+
+.four {
+	color:  hsl(215, 51%, 70%);
+	display: flex;
+    align-items: center;
+}
+
+.tf p{
+	margin-left: 0.8rem;
+}
+.img-1 {
+	height: 30px;
+	width: 30px;
+	border: 2px solid white;
+	border-radius: 50%;
+}
+
+.fift {
+	padding: 0.9rem 0rem 0.9rem 0rem;
+	display: flex;
+	align-items: center;
+}
+.fift p{
+	margin-left: 0.8rem;
+	color: hsl(215, 51%, 70%) ;
+}
+span{
+	color: hsl(0, 0%, 100%);
+}
+
+.image:hover {
+	cursor: pointer;
+    filter: opacity(0.5) drop-shadow(0 0 0 skyblue);
+}
+.fift span:hover {
+	cursor: pointer;
+	color: aqua;
+}
+.first p:hover {
+	cursor: pointer;
+	color: aqua;
+}
