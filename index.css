@@ -19,7 +19,6 @@ main {
 	border-radius: 13px;
 	padding: 17px;
 	background-color: hsl(216, 50%, 16%);
-	min-height: 60%;
 }
 
 .image img {
